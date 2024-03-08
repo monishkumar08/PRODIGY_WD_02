@@ -1,0 +1,57 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .stopwatch {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #display {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #lapTimes {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 300px;
+  }
+  
+  #startStop:hover {
+    background-color: #e74c3c;
+  }
+  
+  #lap:hover{
+    background-color: #4983f0;
+  }
+  
+
+  #lapTimes li {
+    background-color: #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
